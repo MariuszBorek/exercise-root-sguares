@@ -8,13 +8,13 @@ public class App {
 
         System.out.println("Podaj trzy kolejno liczby całkowite, oddzieloneprzecinkami np. 1, 2, 3");
         Scanner reader = new Scanner(System.in);
-        String line = reader.nextLine();
+        String nextLine = reader.nextLine();
 
         double[] abc;
         double a = 0, b = 0, c = 0;
 
         try {
-            abc = cleanAndConvertToDoubleArray(line);
+            abc = cleanAndConvertToDoubleArray(nextLine);
             a = abc[0];
             b = abc[1];
             c = abc[2];
