@@ -13,6 +13,8 @@ public class App {
         double[] abc;
         double a = 0, b = 0, c = 0;
 
+        // różnica
+
         try {
             abc = cleanAndConvertToDoubleArray(nextLine);
             a = abc[0];
